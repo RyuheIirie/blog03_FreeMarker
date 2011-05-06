@@ -15,7 +15,6 @@ public class Main2_2 {
 		Map param = new HashMap();
 
 		param.put("copyright", new SampleBean21(1, "aa"));
-		// param.put("date", Calendar.getInstance().getTime());
 		FtlUtil.execute("./src/part2_2/", "Part.2-2.ftl", param, System.out);
 	}
 }

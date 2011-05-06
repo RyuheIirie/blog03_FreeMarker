@@ -17,10 +17,7 @@ public class Main {
 
 		Map param = new HashMap();
 		param.put("str1", "aaa");
-		// param.put("usr", new SampleBean());
 		param.put("usr", "USER1");
 		FtlUtil.execute("./src/sample/", "Part.3-1 DataModel存在チェック.ftl", param, System.out);
-		// FtlUtil.execute("./src/sample/", "sample.ftl", param, System.out);
-
 	}
 }
